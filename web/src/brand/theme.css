@@ -1,0 +1,28 @@
+/*
+ * yac tunes: near-black canvas, dark panels, white text, warm coral accent.
+ * Dark only; a named Kasumi palette, when chosen, wins.
+ */
+:root:not([data-palette]),
+.dark:not([data-palette]) {
+  color-scheme: dark;
+  --mw-canvas: 0 0 0;
+  --mw-surface: 18 18 18;
+  --mw-surface-subtle: 26 26 26;
+  --mw-surface-muted: 42 42 42;
+  --mw-fg: 255 255 255;
+  --mw-fg-muted: 179 179 179;
+  --mw-fg-subtle: 140 140 140;
+  --mw-line: 40 40 40;
+  --mw-line-muted: 30 30 30;
+  --mw-line-strong: 77 77 77;
+  --mw-accent: 255 107 74;
+  --mw-accent-hover: 255 135 108;
+  --mw-accent-subtle: 64 30 22;
+  --mw-accent-fg: 255 128 100;
+  --mw-fg-on-accent: 0 0 0;
+  --mw-focus: 255 255 255;
+  --mw-surface-inverse: 255 255 255;
+  --mw-scrim: 0 0 0;
+  --mw-ambient: none;
+  --mw-fg-inverse: 0 0 0;
+}
